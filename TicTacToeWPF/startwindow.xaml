@@ -1,0 +1,17 @@
+﻿<Window x:Class="TicTacToeWPF.startwindow"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToeWPF"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="277" Width="384" Closing="close" Icon="/tic-tac-toe.png">
+    <Grid Margin="0,0,0,-11">
+        <Button x:Name="button_result" Content="Результаты" HorizontalAlignment="Center" VerticalAlignment="Top" Height="64" Width="228" Click="button_result_Click" Margin="0,144,0,0" FontSize="20" Background="LightBlue"/>
+        <Button x:Name="button_start" Content="Начать" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" Height="64" Width="228" Click="button_start_Click" FontSize="20" Background="LightBlue"/>
+        <Label Content="TIC TAC TOE" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Margin="0,10,0,0"/>
+
+    </Grid>
+</Window>
